@@ -1,0 +1,32 @@
+[package]
+name = "breez-sdk-ark"
+version = "0.1.0"
+edition = "2021"
+description = "Breez SDK implementation using Ark"
+license = "MIT"
+
+[dependencies]
+ark-client = { git = "https://github.com/ArkLabsHQ/ark-rs.git" }
+ark-core = { git = "https://github.com/ArkLabsHQ/ark-rs.git" }
+ark-bdk-wallet = { git = "https://github.com/ArkLabsHQ/ark-rs.git" }
+anyhow = "1.0"
+bitcoin = { version = "0.32.5", features = ["serde", "rand"] }
+futures = "0.3.30"
+lightning-invoice = "0.33.1"
+tokio = { version = "1.41.0", features = ["full", "macros", "rt-multi-thread"] }
+log = { version = "0.4", features = ["std"] }
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.7.0", features = ["v4", "serde"] }
+rusqlite = { version = "0.30.0", features = ["bundled"] }
+async-trait = "0.1.77"
+chrono = "0.4"
+esplora-client = { version = "0.10.0", features = ["async-https", "blocking-https"] }
+bip39 = "2.0.0"
+rand = { version = "0.8.5", features = ["std_rng"] }
+sdk-common = { workspace = true }
+
+[lib]
+name = "breez_sdk_ark"
+path = "src/lib.rs"

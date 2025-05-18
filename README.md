@@ -1,4 +1,4 @@
-# Breez SDK - Ark *(Ark Implementation)*
+# Breez SDK - Nodeless *(Ark Implementation)*
 
 ## **Overview**
 

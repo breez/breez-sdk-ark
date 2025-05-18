@@ -14,7 +14,7 @@ To provide the best experience for their end-users, developers can choose betwee
 
 **The Breez SDK is free for developers.**
 
-## **What Is the Breez SDK - Spark *(Ark Implementation)*?**
+## **What Is the Breez SDK - Nodeless *(Ark Implementation)*?**
 
 It’s an Ark integration that offers a self-custodial, end-to-end solution for integrating Lightning payments, utilizing the Ark Network with on-chain interoperability and third-party fiat on-ramps. Using the SDK you'll able to:
 
